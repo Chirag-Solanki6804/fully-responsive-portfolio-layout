@@ -1,6 +1,3 @@
-# fully-responsive-portfolio-website
-
-
 ## ⭐ Fully Responsive Portfolio Layout Project 05 ⭐
 
 This is a assignment given in "Full Stack web development" course by PWSKILLS, built using HTML5 and CSS3**.
