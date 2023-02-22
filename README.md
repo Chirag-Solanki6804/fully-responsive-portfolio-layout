@@ -29,8 +29,8 @@ This is a assignment given in "Full Stack web development" course by PWSKILLS, b
 
 ## 📌 What I Learn
 
-👉 Learn about how to build project.
-👉 Learn more about `flex` property of CSS.  
+👉 Learn about How to use Media Query and bulid responsive website. <br>
+👉 learn more new css properties for better styling.  
 
 
 ## 📬 Connect With Me
