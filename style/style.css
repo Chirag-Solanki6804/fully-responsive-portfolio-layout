@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #111827;
+  color: white;
+}
+
+.nav-hand {
+  width: 45px;
+}
+
+.main-pc-img {
+  max-width: 28vw;
+}
+
+.icon {
+  width: 30px;
+}
+
+.hemb-icon {
+  display: none;
+}
+
+/*************/
+/** Navbar ***/
+/*************/
+
+body {
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+  max-height: 10vh;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+}
+
+nav ul li {
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+nav ul li:hover {
+  padding: 5px 10px;
+  background-color: #6464e0;
+  border-radius: 15px;
+}
+
+/****************/
+/* Hero Section */
+/****************/
+
+main {
+  max-height: 67vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 40px;
+}
+
+.hero-left {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.line-1-2 span {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.line-1-2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.line-3 {
+  font-size: 2.3rem;
+  color: #c5c559;
+  font-weight: 900;
+  line-height: 80px;
+}
+
+/********************/
+/* Project Section */
+/*******************/
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-heading {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 800;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  border-bottom: 10px solid blue;
+  border-radius: 10px;
+}
+
+.project-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  text-align: center;
+}
+
+.pro-img {
+  width: 20vw;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.pro:hover {
+  transform: scale(1.1);
+}
+
+/*******************/
+/* contact section */
+/*******************/
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-block: 50px;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  border-bottom: 10px solid blue;
+  border-radius: 8px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
